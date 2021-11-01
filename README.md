@@ -1,19 +1,19 @@
-# adam
+# Adam Jekyll
 
-Adam is a basic Jekyll theme meant as boilerplate code for more complex projects.
+Adam Jekyll is a basic Jekyll theme meant as boilerplate code for more complex projects.
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "adam"
+gem "adam-jekyll"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: adam
+theme: adam-jekyll
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install adam
+    $ gem install adam-jekyll
 
 ## Usage
 
@@ -42,9 +42,17 @@ This project borrows code from the following:
 
 ### Features
 
+#### Search
+
+I used [Christian Fei's Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search).
+
 #### Image Gallery
 
 I used the [image gallery solution from Jekyll Codex](https://jekyllcodex.org/without-plugin/image-gallery/).
+
+#### Breadcrumbs
+
+I used the [breadcrumbs solution from Jekyll Codex](https://jekyllcodex.org/without-plugin/breadcrumbs/).
 
 ## Contributing
 
@@ -57,7 +65,7 @@ To set up your environment to develop this theme, run `bundle install`.
 Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `adam.gemspec` accordingly.
+To add a custom directory to your theme-gem, please edit the regexp in `adam-jekyll.gemspec` accordingly.
 
 ## License
 
