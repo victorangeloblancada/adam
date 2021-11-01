@@ -1,5 +1,21 @@
+<!-- Script pointing to search-script.js -->
 <nav>
     {% for item in site.data.navigation %}
         <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
     {% endfor %}
+    <!-- HTML elements for search -->
+    <input type="text" id="search-input" placeholder="Search blog posts.." style="float: right;">
 </nav>
+<ul id="results-container">
+</ul>
+
+<script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
