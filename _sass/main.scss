@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Inter&Crimson+Prodisplay=swap');*/
 
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
@@ -32,7 +32,7 @@ $text-color: #444;
 $bg-color: #EEE;
 
 $header-font: Inter, sans-serif;
-$body-font: Spectral, serif;
+$body-font: 'Crimson Pro', serif;
 
 html {
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
