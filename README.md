@@ -30,8 +30,21 @@ This is a very simple Jekyll theme meant to act a boilerplate code.
 
 This project borrows code from the following:
 * [The official Jekyll step-by-step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
+* [Jekyll Codex](https://jekyllcodex.org/)
 * [This masterclass on how to effectively style a webpage with minimal CSS](https://github.com/Zachtreis/bettermotherfuckingwebsite)
 * [This wonderful article on fluid typography using Sass](https://css-tricks.com/snippets/css/fluid-typography/)
+
+### Layouts
+1. Default
+2. Page
+3. Author
+4. Post
+
+### Features
+
+#### Image Gallery
+
+I used the [image gallery solution from Jekyll Codex](https://jekyllcodex.org/without-plugin/image-gallery/).
 
 ## Contributing
 
