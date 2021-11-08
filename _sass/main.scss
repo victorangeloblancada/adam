@@ -28,8 +28,9 @@ $max_width: 1200px;
 $min_font: 16px;
 $max_font: 24px;
 
-$text-color: #444;
-$bg-color: #EEE;
+$text-color: #353535;
+$link-color: #3c6e71;
+$bg-color: #d9d9d9;
 
 $header-font: Inter, sans-serif;
 $body-font: 'Crimson Pro', serif;
@@ -59,6 +60,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: $link-color;
 }
 
 a:hover {
