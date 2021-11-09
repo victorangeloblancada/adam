@@ -31,9 +31,12 @@ $max_font: 24px;
 $text-color: #353535;
 $link-color: #3c6e71;
 $bg-color: #d9d9d9;
+$accent-color-1: #f3f4f4;
+$accent-color-2: #777777;
 
 $header-font: Inter, sans-serif;
 $body-font: 'Crimson Pro', serif;
+$code-font: 'JetBrains Mono', monospace, sans-serif;
 
 html {
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
@@ -69,4 +72,56 @@ a:hover {
 
 .current {
     color: $text-color;
+}
+
+code {
+  font-family: $code-font;
+  font-size: .75em;
+  border: 1px solid $accent-color-2;
+  border-radius: .25rem;
+  padding: 0 .125rem;
+  background: $accent-color-1;
+}
+
+pre code {
+  display: block;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+}
+
+blockquote {
+    border-left: 4px solid $accent-color-1;
+    padding: 0 15px;
+    color: $accent-color-2;
+}
+
+blockquote blockquote {
+    padding-right: 0;
+}
+
+hr {
+  border-color: $accent-color-2;
+}
+
+table {
+  border: 1px solid $accent-color-2;
+  margin: 1rem 0;
+}
+
+table tr:nth-child(2n) {
+  background: $accent-color-1;
+}
+
+thead {
+  background: $text-color;
+  color: $bg-color;
+  font-family: $header-font;
+}
+
+td, th {
+  padding: .35rem .7rem;
+  border: 1px solid $accent-color-1;
 }
