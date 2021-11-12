@@ -1,6 +1,8 @@
 # Build settings
+plugins:
+  - jekyll-remote-theme
+
 remote_theme: victorangeloblancada/adam
-plugins: - jekyll-remote-theme
 
 collections:
   authors:
