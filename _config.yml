@@ -1,3 +1,6 @@
+# Build settings
+remote_theme: victorangeloblancada/adam
+
 collections:
   authors:
     output: true
