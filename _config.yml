@@ -1,11 +1,4 @@
 # Build settings
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: victorangeloblancada/adam
-
-# Remove the next line for your own use
-baseurl: adam
 
 collections:
   authors:
